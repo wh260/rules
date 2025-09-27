@@ -59,6 +59,7 @@ DOMAIN-KEYWORD,twitter
 DOMAIN-KEYWORD,whatsapp
 DOMAIN-KEYWORD,youtube
 DOMAIN-KEYWORD,1lou
+DOMAIN-KEYWORD,cobalt
 
 # GFW list
 DOMAIN-SUFFIX,gfwlist.start
