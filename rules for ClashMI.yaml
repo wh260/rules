@@ -6,8 +6,19 @@
 
 proxy-providers:
 
-  机场名称:
-    url: "机场订阅地址"  
+  糖果云:
+    url: "https://114.132.219.239:9888/tgyunsub?token=8cbbeeda950b751e4a5fe762cbb07756"  
+    type: http
+    interval: 86400
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 300
+
+    proxy: 直连
+
+  PolYun:
+    url: "https://fqq-nabaidu.cn-huoshancc.poly-gf.com/s/0cd3b64103db3eb5fdaed3d1014936ac"  
     type: http
     interval: 86400
     health-check:
@@ -328,3 +339,4 @@ rule-providers:
 
 
 #  GateFireWall / Domain: {<<: *domain, url: "https://gh-proxy.com/github.com/metacubex/meta-rules-dat/raw/refs/heads/meta/geo/geosite/gfw.mrs"}
+
