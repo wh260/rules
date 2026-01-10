@@ -6,8 +6,8 @@
 
 proxy-providers:
 
-  糖果云:
-    url: "https://114.132.219.239:9888/tgyunsub?token=789ce892101c6299e6be9e19f471aae2"  
+  PolYun:
+    url: "https://fqq-nabaidu.cn-huoshancc.poly-gf.com/s/0cd3b64103db3eb5fdaed3d1014936ac"  
     type: http
     interval: 86400
     health-check:
@@ -328,5 +328,6 @@ rule-providers:
 
 
 #  GateFireWall / Domain: {<<: *domain, url: "https://gh-proxy.com/github.com/metacubex/meta-rules-dat/raw/refs/heads/meta/geo/geosite/gfw.mrs"}
+
 
 
